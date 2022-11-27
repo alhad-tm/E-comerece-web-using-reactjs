@@ -26,7 +26,7 @@ const Products = () => {
                 <li onClick={()=>filter('conditioner')}>Conditioners</li>
                 <li onClick={()=>filter('foundation')}>Foundations</li>
             </ul>
-            <div className={css.list} ref={parent}>
+            <div className={css.list} ref={parent}> 
                     {
                        menuProducts.map((product,i)=>(
                         <div className={css.product}>
