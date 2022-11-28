@@ -76,13 +76,10 @@ const Footer = () => {
             </div>
             </div>
             
-
             <div className={css.copyRight}>
                 <span>Copyright 2022 by Amazon, Inc.</span>
                 <span>All rights reserved</span>
-        
-
-      </div>
+         </div>
     </div>
   );
 };

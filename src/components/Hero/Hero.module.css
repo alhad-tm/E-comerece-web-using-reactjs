@@ -1,7 +1,7 @@
 .container{
     padding:0rem 2rem;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
 .wrapper{
@@ -9,6 +9,7 @@
     align-items: baseline;
     justify-content: center;
     position: relative;
+
    
     
 }
@@ -30,12 +31,14 @@
 }
 .cart2{
     position: absolute;
-    bottom: 25%;
-    right:10%;
+    bottom: 17%;
+    right:-18%;
     display: flex;
     gap: 1rem;
     align-items: center;
+    block-size: 5px;
 }
+
 .cart2>svg{
     width: 30px;
     height: 30px;
@@ -67,14 +70,18 @@
     align-items: center;
     justify-content: center;
 }
-
+.signup>:nth-child(2):hover{
+    cursor: pointer;
+    background-color: rgb(233, 238, 243);
+}
 
 
 
 .h_sides{
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;  
 }
+
 .text1{
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -113,6 +120,67 @@
 }
 .customers>:first-child{
     font-weight: 800;
-    font-size: 2.5rem;
-    
+    font-size: 2.5rem;  
 }
+
+@media screen and (max-width:856px){
+    .text1, .text2>span:nth-of-type(2){
+        font-size: .9rem;
+        text-align: justify;
+    }
+    .text2> span:nth-of-type(1),
+    .traffic>span:nth-child(1),
+    .customers>span:nth-child(1){
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+.blueCircle{
+    position: absolute;
+    width: 70%;
+    height: 100%;
+}
+.wrapper>img{
+    width: 70%;
+    height: 100%;
+}
+.container{
+    grid-template-areas: 
+    'left center centre'
+    'right right right';
+}
+.container>:first-child
+{
+    grid-area: left;
+    grid-template-rows: none;
+    gap: 8rem;
+}
+.container>:nth-child(2){
+    grid-area: center;
+}
+.container>:nth-child(3){
+    grid-area:right;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0rem;
+}
+
+@media screen and (max-width:640px){
+    .blueCircle{
+        top:0;
+        width: 16rem;
+        height: 72%;
+    }
+    .wrapper>img{
+        top: 3rem;
+        width: 12rem;
+        height: 15rem;
+    }
+    .cart2{
+        transform: scale(.7);
+        right: -2rem;
+        bottom: 0;
+    }
+ } 
+}
+     
