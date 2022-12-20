@@ -1,3 +1,10 @@
+import img111 from '../assets/img1-1.png'
+import img22 from '../assets/img2-2.png'
+import img33 from '../assets/img3-3.png'
+import pb4 from '../assets/pb4.png'
+import pb5 from '../assets/pb5.png'
+
+
 import img1 from '../assets/img1.png'
 import img2 from '../assets/img2.png'
 import img3 from '../assets/img3.png'
@@ -14,23 +21,23 @@ import img13 from '../assets/img13.png'
 import img14 from '../assets/img14.png'
 
 export const SliderProducts = [{
-    name: 'SKIN',
-    detail: 'Super Skin Care',
-    price: '25',
-    img: img1
+    name: "Pimples ?",
+    // detail: 'Super Skin Care',
+    // price: '25',
+    img: img111
 },
 {
-    name: 'SKIN',
-    detail: 'Super Skin Care',
-    price: '30',
-    img: img2
+    name: 'Dullness ?',
+    // detail: 'Super Skin Care',
+    // price: '30',
+    img: img22
 },
 {
-    name: 'NATURE',
-    detail: 'Super Skin Care',
-    price: '25',
-    img: img3
-}
+    name: 'Oily Skin ?',
+    // detail: 'Super Skin Care',
+    // price: '25',
+    img: img33
+},{name:"Darkness ?" ,img:pb4},{name:"Dryness ?",img:pb5}
 ]
 export const ProductsData = [{
     name: 'SKIN',

@@ -1,20 +1,23 @@
-.s-container{
+/* .s-container{
     position: relative;
 }
 
 .s-container .swiper{
-    width: 70%;
-    height: 12rem;
+    width: 80%;
+    height: 27rem;
     position: unset;
 }
 
 .s-container .swiper-slide{
-    background: white;
+    height: 340px;
+    width: 200px;
+    background:none;
     display: flex;
     border-radius: 10px;
     padding: 1rem;
     box-sizing: border-box;
     overflow: hidden;
+    
 }
 .s-container .swiper-button-prev{
     left:6rem;
@@ -26,12 +29,21 @@
 
 .s-container .swiper-button-prev, .s-container .swiper-button-next{
     color: black;
+    position: absolute;  
+}
+.mySwiper{
+    margin-top: 50px;
+    height:600px;
+    width:200px;
 }
 .left-s{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+     height:200px;
+    width:20px;  
+ }
+ 
 .name{
     display: flex;
     flex-direction: column;
@@ -54,17 +66,60 @@
     border: 1px solid var(--black);
     padding: 5px 10px;
     width: max-content;
-    border-radius: 15px;
+    border-radius: 15px;    
+}  */
+
+
+/* imgppstyle */
+    /* transform: rotate(-20deg); */
+    /* right: 0; */
+
+    /* position: absolute;
+    width: 60%;
+    height: 100%;
+    bottom: -20%;
+    right:-12%;  */
+
+
+.s-container{
+    position: relative;
+    margin-bottom: -100px;
+    margin-top: 20px;
+
+}
+.concern{
+    font-weight: bold;
+    font-size: x-large;
+    font-style: italic;
+    color: rgb(57, 43, 24);
+}
+.name{
+    font-size: 25px;
 }
 
 .img-p{
-    transform: rotate(-20deg);
-    position: absolute;
-    right: 0;
-    width: 40%;
-    height: 100%;
-    bottom: -20%;
+    height: 200px;
+    width: 220px;
+    border-radius: 50%;
+    border: 1px solid rgb(55, 55, 51);
+    /* right:-80px; */
 }
+.mySwiper{
+   /* background-color: #fff; */
+   align-self: center;
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+    height:300px;
+     width:80%;
+     padding-left: 4rem;
+     /* padding-top: 6rem; */
+    
+    
+}
+
+
+
 @media screen and (max-width:856px){
     .s-container .swiper{
         width: 90%;

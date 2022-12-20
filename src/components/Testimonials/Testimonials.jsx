@@ -1,6 +1,6 @@
 import React from 'react'
 import css from './Testimonials.module.css'
-import Hero from '../../assets/testimonialHero.png'
+import Hero from '../../assets/hero1.png'
 import { TestimonialsData } from '../../data/testimonials'
 import {Swiper, SwiperSlide } from 'swiper/react'
 
@@ -22,7 +22,8 @@ const Testimonials = () => {
         <span>Happy customers with us</span>
       </div>
       </div>
-
+      <br />
+       <hr />
       <div className={css.reviews}>Reviews</div>
 
       <div className={css.carousel}>

@@ -15,13 +15,17 @@ import { SliderProducts } from "../../data/products";
 const Slider = () => {
   return (
     <div className="s-container">
+      <div style={{textAlign:"center"}} className="problems">
+        <span className="concern">What's ur greatest concern?</span>
+      </div>
+      <br />
       <Swiper
       breakpoints={{
         640:{
           slidesPerView:3
         },
         0:{
-          slidesPerView:1
+          slidesPerView:1   
         }
       }}
         modules={[Pagination, Navigation]}
@@ -37,13 +41,15 @@ const Slider = () => {
           <SwiperSlide>
             <div className="left-s">
               <div className="name">
-                <span>{slide.name}</span>
-                <span>{slide.details}</span>
+                <span >{slide.name}</span>
+                {/* <span>{slide.details}</span> */}
               </div>
-              <span>{slide.price}$</span>
-              <div>shop now</div>
+              {/* <span>{slide.price}$</span>  */}
+              {/* <div>pimples</div> */}
+              
+              <img src={slide.img} alt="product" className="img-p" />
             </div>
-            <img src={slide.img} alt="product" className="img-p" />
+            
           </SwiperSlide>
         ))}
       </Swiper>

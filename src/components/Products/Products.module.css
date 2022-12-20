@@ -44,12 +44,13 @@
 .product{
     width: 12rem;
     height: 8rem;
-    background-color: #fff;
+    background-color: rgb(117, 114, 117);
     position: relative;
     overflow: hidden;
     padding: 1rem;
     display: flex;
     border-radius: 1rem;
+    color: aliceblue;
 }
 
 
@@ -57,6 +58,14 @@
     top: 3rem;
     width: 6rem;
     height: 11rem;
+    bottom: -20%;
+    border: none;
+    position: absolute;
+    right: 0;
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    
+   
 }
 
 @media screen and (max-width:856px) {

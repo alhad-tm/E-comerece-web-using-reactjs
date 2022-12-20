@@ -1,7 +1,7 @@
 .container{
     padding:0rem 2rem;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 2.2fr 1fr;
 }
 
 .wrapper{
@@ -15,24 +15,29 @@
 }
 
 .wrapper>img{
-    width: 23rem;
+    width: 27rem;
+    top: -0.3rem;
+    height:22rem;
     position: absolute;
     bottom: 0;
+    border-radius: 50%;
 }
 
 .blueCircle{
-    width: 26rem;
+    width: 23rem;
     height: 22rem;
     border-radius: 50%;
     z-index: -99;
     position: absolute;
     bottom: 0;
-    background-color: rgb(11, 160, 229);
+    
+    /* background-color: rgb(11, 160, 229); */
+    background-color: rgb(211, 197, 158);
 }
 .cart2{
     position: absolute;
-    bottom: 17%;
-    right:-18%;
+    bottom: 14%;
+    right:-21%;
     display: flex;
     gap: 1rem;
     align-items: center;
