@@ -11,8 +11,7 @@ const Testimonials = () => {
       <div className={css.wrapper}>
         <div className={css.container}>
         <span>Top Rated</span>
-        <span>Seedily say has suitable disposal and boy.Exercise
-             joy man children rejoiced</span>
+        <span>We have a plenty of customer with top rated feebacks</span>
       </div>
       
       <img src={Hero} alt="" />

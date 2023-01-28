@@ -18,7 +18,7 @@ const Footer = () => {
       <div className={css.cFooter}>
         <div className={css.logo}>
           <img src={Logo} alt="" />
-          <span>amazon</span>
+          <span>iconic</span>
         </div>
         <div className={css.block}>
           <div className={css.detail}>
@@ -29,19 +29,18 @@ const Footer = () => {
             </span>
 
             <span className={css.pngLine}>
-                {""}
+              {""}
               <PhoneIcon className={css.icon} />
               <a href="tel:352-306-4415">352-306-4415</a>
             </span>
 
             <span className={css.pngLine}>
-                {""}
+              {""}
               <InboxIcon className={css.icon} />
               <a href="mailto:support@amazon">352-306-4415</a>
             </span>
           </div>
         </div>
-
 
         <div className={css.block}>
           <div className={css.detail}>
@@ -50,8 +49,8 @@ const Footer = () => {
               <LoginIcon className={css.icon} />
               signin
             </span>
-            </div>
-            </div>
+          </div>
+        </div>
 
         <div className={css.block}>
           <div className={css.detail}>
@@ -59,11 +58,11 @@ const Footer = () => {
             <span className={css.pngLine}>
               <UsersIcon className={css.icon} />
               <a href="/about">
-              <p>About us</p>
+                <p>About us</p>
               </a>
             </span>
-            </div>
-            </div>
+          </div>
+        </div>
 
         <div className={css.block}>
           <div className={css.detail}>
@@ -72,14 +71,14 @@ const Footer = () => {
               <LinkIcon className={css.icon} />
               <p>Safety privacy and terms</p>
             </span>
-            </div>
-            </div>
-            </div>
-            
-            <div className={css.copyRight}>
-                <span>Copyright 2022 by Amazon, Inc.</span>
-                <span>All rights reserved</span>
-         </div>
+          </div>
+        </div>
+      </div>
+
+      <div className={css.copyRight}>
+        <span>© Designed by ALHAD.T.M </span>
+        <span>All rights reserved</span>
+      </div>
     </div>
   );
 };

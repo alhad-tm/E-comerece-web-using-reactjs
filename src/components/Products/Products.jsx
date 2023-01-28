@@ -30,17 +30,17 @@ const Products = () => {
                     {
                        menuProducts.map((product,i)=>(
                         <div className={css.product}>
-                            <div className="left-s">
-                                <div className="name">
+                            <div className="css.left-s">
+                                <div className={css.name}>
                                     <span>{product.name}</span>
-                                    <span>{product.detail}</span>
+                                    <span>{product.details}</span>
                                 </div>
                                 <span>{product.price}$</span>
                                 <div>Shop now</div>
                             </div>
                             <img src={product.img} alt=""  className='img-p'/>
                         </div>
-                       ))
+                       )) 
                     }
             </div>
         </div>

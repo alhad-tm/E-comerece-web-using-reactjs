@@ -12,6 +12,7 @@ const Virtual = () => {
         <span>Virtual try on</span>
         <span>Never buy the wrong shade again</span>
         <span>Try now!</span>
+       
         <img src={Shade} alt="" />
       </div>
       <div className={css.right}>

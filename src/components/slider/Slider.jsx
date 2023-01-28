@@ -15,19 +15,19 @@ import { SliderProducts } from "../../data/products";
 const Slider = () => {
   return (
     <div className="s-container">
-      <div style={{textAlign:"center"}} className="problems">
-        <span className="concern">What's ur greatest concern?</span>
+      <div style={{ textAlign: "center" }} className="problems">
+        <span className="concern">What is your greatest concern ?</span>
       </div>
       <br />
       <Swiper
-      breakpoints={{
-        640:{
-          slidesPerView:3
-        },
-        0:{
-          slidesPerView:1   
-        }
-      }}
+        breakpoints={{
+          640: {
+            slidesPerView: 3,
+          },
+          0: {
+            slidesPerView: 1,
+          },
+        }}
         modules={[Pagination, Navigation]}
         className="mySwiper"
         navigation={true}
@@ -40,16 +40,10 @@ const Slider = () => {
         {SliderProducts.map((slide, i) => (
           <SwiperSlide>
             <div className="left-s">
-              <div className="name">
-                <span >{slide.name}</span>
-                {/* <span>{slide.details}</span> */}
-              </div>
-              {/* <span>{slide.price}$</span>  */}
-              {/* <div>pimples</div> */}
-              
               <img src={slide.img} alt="product" className="img-p" />
+
+              <span className="name">{slide.name}</span>
             </div>
-            
           </SwiperSlide>
         ))}
       </Swiper>
